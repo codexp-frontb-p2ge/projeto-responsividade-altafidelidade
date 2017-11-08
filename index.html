@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Weave</title>
+    <link href="https://fonts.googleapis.com/css?family=Amaranth" rel="stylesheet">
+    <style>
+        body {
+            margin: -4px;
+        }
+        .navbar {
+            display: table;
+            padding: 4%;
+            background-color: black;
+            font-size: 0.8em;
+            font-family: 'Amaranth', sans-serif;
+        }
+        .links {
+            width: 100%;
+            padding-left: 0;
+            text-align: center;
+            color: white;
+            text-transform: uppercase;
+        }
+        .links li {
+            display: inline;
+        }
+        .logo {
+            width: 60px;
+        }
+        .logo, .links, .menu {
+            display: table-cell;
+            vertical-align: middle;
+        }
+        .menu {
+            color: white;
+            text-transform: uppercase;
+        }
+        .projects {
+            padding: 0 10%;
+            margin: 8%;
+            font-family: 'Amaranth', sans-serif;
+            border-top: 8px solid lightgray;
+        }
+        .projects h2 {
+            color: red;
+            padding-bottom: 5%;
+        }
+        .articles {
+            padding: 0 10%;
+            margin: 8%;
+            font-family: 'Amaranth', sans-serif;
+            border-top: 8px solid lightgray;
+        }
+        .articles h2 {
+            color: red;
+            padding-bottom: 5%;
+        }
+        .articles__tittle2 {
+            color: red;
+        }
+
+    </style>
+</head>
+<body>
+    <header class="navbar">
+        <img class="logo" src="redcircle.jpg" alt="Circulo vermelho">
+        <ul class="links">
+            <li>work</li>
+            <li>contact</li>
+            <li>link</li>
+        </ul>
+        <a class="menu" href="#">menu</a>
+    </header>
+
+    <section class="projects">
+        <h2>Current projects</h2>    
+            <div>
+                <h3>Not for profit website</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+            </div>
+    </section>
+    <section class="articles">
+            <h2>Latest articles</h2>    
+                <div>
+                    <h3 class="articles__tittle2">Sit amet consectetur</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit ipsum dolor, sit amet consectetur adipisicing.</p>
+                </div>
+        </section>
+
+</body>
+</html>
