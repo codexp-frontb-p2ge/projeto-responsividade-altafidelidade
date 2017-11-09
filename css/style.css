@@ -185,7 +185,6 @@ html,body{
     position: absolute;
     right: 0;
 }
-<<<<<<< HEAD
 /*layout tablet*/
 @media(min-width: 768px){
     .navbar {
@@ -243,10 +242,6 @@ html,body{
         width: 45%;
         float: left;
     }
-=======
-/* layout tablet */
-@media(min-width: 768px) {
->>>>>>> 506e68c5e7ed29f98d271897d35ed5dcc5bc3894
     .details{
         height: 50vh;
     }
@@ -311,7 +306,6 @@ html,body{
         width: 90%;
     }
 }
-<<<<<<< HEAD
 /*layout desktop*/
 @media(min-width: 992px) {
     .links {
@@ -346,10 +340,3 @@ html,body{
     }
 }
 
-=======
-
-/* layout desktop */
-@media(min-width: 992px) {
-    
-}
->>>>>>> 506e68c5e7ed29f98d271897d35ed5dcc5bc3894
