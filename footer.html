@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        html,body{
+            margin: 0;
+            padding: 0;
+        }
+        .footer{
+            background: red;
+            display: table;
+            padding: 5%;
+        }
+        .footer div{
+            display: table-cell;
+        }
+        .footer p{
+            margin: 0;
+            padding: 0;
+        }
+        .footer__info{
+        }
+        .footer__info p:first-child{
+            margin-bottom: 10px;
+        }
+        .footer__search{
+            position: relative;
+            vertical-align: middle;
+        }
+        .footer__search p{
+            font-size: 0.9em;
+        }
+        .footer__search__field{
+            border-radius: 50px;
+            display: inline-block;
+            width: 70%;
+            position: absolute;
+            left: 0;
+            z-index: 1;
+        }
+        .footer__search__button{
+            background: black;
+            border-color: black;
+            border-radius: 0px 50px 50px 0px;
+            box-sizing: border-box;
+            color: white;
+            display: inline-block;
+            margin-left: -30px;
+            width: 40%;
+            position: absolute;
+            right: 0;
+        }
+    </style>
+</head>
+<body>
+    <footer class="footer">
+        <div class="footer__info">
+            <p>Lorem ipsum dolor sit amet.</p>
+            <p>Lorem ipsum dolor sit amet consectetur.</p>
+        </div>
+        <div class="footer__search">   
+            <p>Lorem, ipsum dolor.</p>
+            <div>
+                <input class="footer__search__field" type="text">
+                <input class="footer__search__button" type="button" value="Search">
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
